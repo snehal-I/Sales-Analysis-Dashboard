@@ -10,10 +10,10 @@ This project presents an interactive Sales Dashboard to analyze online sales per
 
 > Dataset Details (Cleaned & Updated):                	
 - FACT_InternetSales -> Fact type -> Sales transaction data
-- FACT_Budget	                Fact	       Target values for comparison
-- DIM_Product	              Dimension	     Product attributes
-- DIM_Customer	            Dimension	     Customer info for segmentation
-- DIM_Date	                Dimension 	   Enables time-based insights
+- FACT_Budget -> Fact -> Target values for comparison
+- DIM_Product -> Dimension -> Product attributes
+- DIM_Customer	-> Dimension -> Customer info for segmentation
+- DIM_Date -> Dimension -> Enables time-based insights
  
 > Data Source:
  AdventureWorksDW — Microsoft SQL Server Sample Data Warehouse
@@ -27,8 +27,8 @@ This project presents an interactive Sales Dashboard to analyze online sales per
 
 > Dashboard Insights:
  ![Sales Overview](Images/Sales_overview.png)
- ![Customer details](Images/customer_details.png)
- ![Product details](Images/product_details.png)
+ ![Customer details](Images/Customer_details.png)
+ ![Product details](Images/Product_details.png)
 
 > KPIs displayed:
   - Total Sales Amount
