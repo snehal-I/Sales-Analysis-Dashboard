@@ -8,11 +8,8 @@ This project presents an interactive Sales Dashboard to analyze online sales per
    - Understand Customer Purchase Behavior
    - Make better data-driven decisions
 
-> Dataset Details (Cleaned & Updated):
-- Structured using a Star Schema:
-
-  Dataset                   	Type	               Purpose
-- FACT_InternetSales	        Fact	       Sales transaction data
+> Dataset Details (Cleaned & Updated):                	
+- FACT_InternetSales -> Fact type -> Sales transaction data
 - FACT_Budget	                Fact	       Target values for comparison
 - DIM_Product	              Dimension	     Product attributes
 - DIM_Customer	            Dimension	     Customer info for segmentation
